@@ -1,4 +1,4 @@
-Package Math::Interpolate version 1.05
+Package Math::Interpolate version 1.06
 
 This is the Math::Interpolate package.  This module contains several
 useful routines for interpolating data sets and finding where a given
@@ -32,14 +32,14 @@ REQUIREMENTS
 
 AVAILABILITY
 
-The latest version of this package is available for download from a CPAN
-(Comprehensive Perl Archive Network) site near your at
+The latest released version of this package is available for download
+from a CPAN (Comprehensive Perl Archive Network) archive near you in
 
-        http://www.perl.com/CPAN/authors/id/B/BZ/BZAJAC/
+    http://www.perl.com/CPAN/authors/id/B/BZ/BZAJAC/
 
-or from my FTP site:
+The package's source code is hosted in a Git repository at
 
-        ftp://ftp.gps.caltech.edu/pub/blair/Perl/
+    https://github.com/blair/perl-math-interpolate
 
 INSTALLATION
 
@@ -69,4 +69,10 @@ utility to extract documentation from the module files directly.
 AUTHOR, COMMENTS, AND BUGS
 
 I welcome all comments and bug reports.  Please email them to
-Blair Zajac <blair@geostaff.com>.
+Blair Zajac <blair@orcaware.com>.
+
+COPYRIGHT
+
+Copyright (C) 1998-2005 Blair Zajac.  All rights reserved.  This
+package is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.

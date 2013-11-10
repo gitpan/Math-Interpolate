@@ -9,7 +9,8 @@ use Carp;
 
 @EXPORT_OK = qw(interval_search);
 @ISA       = qw(Exporter);
-$VERSION   = substr q$Revision: 1.05 $, 10;
+$VERSION   = 1.06;
+$VERSION   = eval $VERSION;
 
 sub cluck { warn Carp::longmess @_ }
 
@@ -244,10 +245,12 @@ Then left = ilo is returned.
 
 =head1 AUTHOR
 
-Blair Zajac <bzajac@geostaff.com>.
+Blair Zajac <blair@orcaware.com>.
 
 =head1 COPYRIGHT
 
-Copyright (c) 1998 by Blair Zajac.
+Copyright (C) 1998-2005 Blair Zajac.  All rights reserved.  This
+package is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
 
 =cut

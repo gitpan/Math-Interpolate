@@ -6,3 +6,5 @@ lib/Math/IntervalSearch.pm
 lib/Math/Interpolate.pm
 t/01interval.t
 t/02interp.t
+META.yml                                 Module meta-data (added by MakeMaker)
+SIGNATURE                                Public-key signature (added by MakeMaker)
